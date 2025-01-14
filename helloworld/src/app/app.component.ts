@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'helloworld';
+ 
+  title = "Angular";
+  condition = true;
+  number=123;
+  source="assets/angular.jpg";
+  nameList = ['Ahmed', 'Ali', 'Imen'];
 }
