@@ -1,5 +1,5 @@
 <router-outlet></router-outlet>
-<h1>{{title}}</h1>
+<h1>{{title}}</h1>       
 <h3>{{number}}</h3>
 <div *ngIf="condition">
 <img [src]="source" alt="image" >
@@ -7,5 +7,8 @@
 <ul *ngFor="let name of nameList">
     <li>{{ name }}</li>
 </ul>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-danger">Danger</button>
 
   
